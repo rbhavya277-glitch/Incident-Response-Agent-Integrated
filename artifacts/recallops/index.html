@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <meta name="theme-color" content="#080d1c" />
+    <title>RecallOps — AI incident response with memory</title>
+    <meta
+      name="description"
+      content="RecallOps is an AI-powered incident troubleshooting assistant that learns from every outage, connects the right signals, and helps your team resolve the next incident faster."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="RecallOps — AI incident response with memory" />
+    <meta
+      property="og:description"
+      content="Turn noisy logs into a clear explanation of what happened and what to do next, powered by persistent incident memory."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="RecallOps — AI incident response with memory" />
+    <meta
+      name="twitter:description"
+      content="Turn noisy logs into a clear explanation of what happened and what to do next, powered by persistent incident memory."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Paint the shell background before the stylesheet resolves so there is
+         never a white flash on first load. */
+      html {
+        background-color: #080d1c;
+        color-scheme: dark;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
